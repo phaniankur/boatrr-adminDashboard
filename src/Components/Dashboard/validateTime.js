@@ -1,6 +1,6 @@
 const validateTime = (time) => {
     const event = new Date(time);
-    let formatedTime = event.toUTCString();
+    let formatedTime = event.toLocaleString();
   return formatedTime
 }
 
